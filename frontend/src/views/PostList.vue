@@ -1,9 +1,9 @@
 <template>
   <ion-list>
-    <ion-item v-for="post in posts" :key="post.id">
+    <ion-item v-for="post in posts" :key="post.id" class="post-card">
       <ion-thumbnail slot="start">
         <img :src="post.image" />
-      </ion-thumbnail>
+      </ion-thumbnail >
       <ion-label>
         <h2>{{ post.title }}</h2>
         <h3>{{ post.author }}</h3>
@@ -61,3 +61,32 @@ export default {
   }
 };
 </script>
+<style scoped>
+.post-card {
+  margin: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ion-card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+ion-card-subtitle {
+  font-size: 1em;
+  color: #666;
+}
+
+ion-thumbnail {
+  max-width: 80px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+ion-button {
+  margin-top: 15px;
+}
+
+/* Agrega más estilos personalizados según sea necesario */
+</style>
