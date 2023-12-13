@@ -14,7 +14,7 @@
 
 <script>
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import PostList from './components/PostList.vue';
+import PostList from './views/PostList.vue';
 
 export default {
   name: 'App',
