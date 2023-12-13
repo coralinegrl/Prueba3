@@ -11,13 +11,13 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 1. Clona este repositorio o descarga el código.
 
     ```bash
-    git clone https://github.com/tuusuario/json-server-example.git
+    git clone https://github.com/rickyurvinaUCN/Prueba3IWM
     ```
 
 2. Navega al directorio del proyecto.
 
     ```bash
-    cd json-server-example
+    cd Prueba3IWM
     ```
 
 3. Instala las dependencias.
@@ -43,7 +43,7 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 
 Puedes realizar solicitudes GET, POST, PUT y DELETE a estas rutas para interactuar con los datos simulados.
 
-## Ejemplo de solicitud con cURL
+## Ejemplo de solicitud
 
 ```bash
 # Obtener todos los posts
@@ -51,3 +51,6 @@ http://localhost:3000/posts
 
 # Obtener un post específico (reemplaza {postId} con el ID del post)
 http://localhost:3000/posts/{postId}
+
+Mas documentación
+https://github.com/typicode/json-server
